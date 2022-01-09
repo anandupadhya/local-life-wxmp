@@ -1,0 +1,27 @@
+.card {
+  margin: 20rpx;
+  padding: 10rpx;
+  display: flex;
+  border: 1px solid lightgrey;
+  box-shadow: 0rpx 0rpx 15rpx lightgrey;
+}
+
+.thumbnail image {
+  width: 250rpx;
+  height: 250rpx;
+  flex-shrink: 0;
+  display: block;
+}
+
+.info {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 24rpx;
+}
+
+.shop-name {
+  font-weight: bold;
+}
+

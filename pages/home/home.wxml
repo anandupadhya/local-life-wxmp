@@ -1,0 +1,17 @@
+<swiper indicator-dots circular autoplay interval="5000">
+  <swiper-item wx:for="{{swiperList}}">
+    <image src="{{item.image}}"></image>
+  </swiper-item>
+</swiper>
+
+<view class="grid">
+  <navigator class="grid-item" wx:for="{{gridList}}" wx:key="id" url="/pages/shoplist/shoplist?id={{item.id}}&title={{item.name}}">
+    <image src="{{item.icon}}"></image>
+    <view>{{item.name}}</view>
+  </navigator>
+</view>
+
+<view class="bottom-links">
+  <view class="link-item">Recommended</view>
+  <view class="link-item">Friends</view>
+</view>

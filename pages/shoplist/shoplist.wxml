@@ -1,0 +1,13 @@
+<view class="card" wx:for="{{shopList}}" wx:key="id">
+  <view class="thumbnail">
+    <image src="{{item.images[0]}}"></image>
+  </view>
+  <view class="info">
+    <text class="shop-name">Name: {{item.name}}</text>
+    <text>Phone: {{tools.formatPhoneNumber(item.phone)}}</text>
+    <text>Address: {{item.address}}</text>
+    <text>Hours: {{item.businessHours}}</text>
+  </view>
+</view>
+
+<wxs src="../../utils/tools.wxs" module="tools"></wxs>

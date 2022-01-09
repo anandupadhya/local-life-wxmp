@@ -1,0 +1,55 @@
+swiper {
+  height: 375rpx;
+}
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2rpx solid #2b4b6b;
+  border-left: 2rpx solid #2b4b6b;
+}
+
+.grid-item {
+  box-sizing: border-box;
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 2rpx solid #2b4b6b;
+  border-bottom: 2rpx solid #2b4b6b;
+}
+
+.grid-item image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.grid-item view {
+  font-size: 30rpx;
+}
+
+.bottom-links {
+  margin: 20rpx;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-links view {
+  padding: 20rpx;
+  width: 40%;
+  height: 100rpx;
+  background-color: #2b4b6b;
+  border-radius: 10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36rpx;
+  color: white;
+}

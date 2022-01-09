@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/messages/messages",
+    "pages/contact/contact",
+    "pages/shoplist/shoplist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "Local Life",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home",
+        "iconPath": "/images/tabbar/home.png",
+        "selectedIconPath": "/images/tabbar/home-active.png"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "text": "Messages",
+        "iconPath": "/images/tabbar/messages.png",
+        "selectedIconPath": "/images/tabbar/messages-active.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "Contact",
+        "iconPath": "/images/tabbar/contact.png",
+        "selectedIconPath": "/images/tabbar/contact-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

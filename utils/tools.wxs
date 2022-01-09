@@ -1,0 +1,12 @@
+function formatPhoneNumber(str) {
+  if (str.length !== 11) return str
+
+  var chars = str.split('')
+  chars.splice(3, 0, '-')
+  chars.splice(8, 0, '-')
+  return chars.join('')
+}
+
+module.exports = {
+  formatPhoneNumber: formatPhoneNumber
+}
